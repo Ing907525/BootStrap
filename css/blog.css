@@ -1,24 +1,28 @@
 /*头部部分*/
 body{-webkit-text-size-adjust: none;font-family: "microsoft yahei";}
 .clear{clear: both;}
-.dl-horizontal>dt{text-align: left;color: #7E7E7E;}
+.dl-horizontal>dt{ text-align: left;color: #009dfb;font-weight: 500;font-size: 16px;}
 a:hover{text-decoration: none;}
 html,body{-webkit-text-size-adjust: none;}
 .textColor-ff8376{color: #FF8376;}
 .fmt{margin-top: 20px !important;}
+.bdR{border-right: darkgrey solid 2px;width: 13%;display: inline-block;float: left;}
+.bdR>h3{margin-top: 10PX}
+.clearMarginT{margin-top: 0}
+.first-navbar{min-height: 50px;line-height: 50px;}
+.navbar{min-height: 5px;}
 .navbar-inverse{border:none !important;border-radius: 0 !important;background-color: #FF5842 !important;background-image: none !important;}
 .navbar-nav>li>a{color:#ffffff !important;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{background-color: #ff5842 !important;}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color: #f24933 !important;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{background-image: none !important;}
-.first-navbar li a{padding: 0 10px !important;}
+.first-navbar li a{padding: 0 10px !important;font-size: 16px;}
 .first-navbar li:first-child a{padding-left: 0 !important}
 .first-navbar>li>a:hover{color: #F24933 !important;}
 .first-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
 /*主体部分*/
-.dl-horizontal>dt{text-align: left;color: #7E7E7E;}
 .text-red{color: deeppink;}
-.fr3 .thumbnail{border: none;box-shadow: none;border-radius: 0;}
+.fr3 .thumbnail{border: none;box-shadow: none;border-radius: 0;padding: 0;}
 .fr3 .thumbnail>.caption{padding: 0;}
 .fr3 .caption>h5{display: inline-block;margin: 0;}
 .btn-style{background-color: #FF5842;padding: 10px 30px ;color: #FFFFFF;}
@@ -68,6 +72,11 @@ html,body{-webkit-text-size-adjust: none;}
 .carousel-control{width: 9% !important;}
 #slider1 h5,#slider3 h5{display: inline-block;}
 .fr4{margin-top: 30px;}
+/*.fr4 .thumbnail{border: none;}*/
+/*Footer*/
+.bg-footer{background: url(../img/bg-footer.png) center center repeat;color: #FFFFFE;margin-top:20px;}
+.bg-footer1{background: url(../img/bg-footer1.png) center center repeat;color: #FFFFFE;padding: 5px 0;}
+.bg-footer1 .thumbnail{border-bottom: none !important;margin-bottom: 0;border: none;}
 @media (min-width: 768px){
 	.dl-horizontal dt {
     float: left;

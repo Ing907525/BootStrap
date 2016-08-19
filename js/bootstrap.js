@@ -2362,7 +2362,7 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 // bootstrap响应式导航条		Hover
-;(function($, window, undefined) {
+(function($, window, undefined) {
     // outside the scope of the jQuery plugin to
     // keep track of all dropdowns
     var $allDropdowns = $();

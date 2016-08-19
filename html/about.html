@@ -2,28 +2,31 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Blog</title>
+		<title>About</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+			<!--
+				width=device-width ：表示宽度是设备屏幕的宽度
+				initial-scale=1.0：表示初始的缩放比例
+				minimum-scale=0.5：表示最小的缩放比例
+				maximum-scale=2.0：表示最大的缩放比例
+				user-scalable=yes：表示用户是否可以调整缩放比例
+			-->
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"  />
+		<link href="../css/video-js.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/responsive/demo.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/responsive/responsiveslides.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/blog.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/about.css"/>
 		<script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../js/responsive/responsiveslides.min.js" type="text/javascript" charset="utf-8"></script>
 	    <!--[if lt IE 9]>
 	    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
-		<style type="text/css">
-			.callbacks_nav{left: 0;}
-			.callbacks_nav.next {right: 0;}
-			.callbacks_nav{background: transparent url(../img/themes1.png) left top;}
-			.videoUiWrapper.thumbnail .videoController {left: 0px !important; bottom: 0px !important;}
-		</style>
+	    <style type="text/css">
+	    	.videoUiWrapper.thumbnail .videoController{left: 0px !important; bottom: 0px !important;}
+	    </style>
 	</head>
 	<body>
 		<header class="">
@@ -55,8 +58,8 @@
 			<!--导航条-->
 			<div class="container-fluid">
 				<ul class="list-inline first-navbar">
-					<li ><a href="../index.html">HOME</a></li>
-			        <li class="dropdown active">
+					<li><a href="../index.html">HOME</a></li>
+			        <li>
 			        	<a href="blog.html">BLOG</a>
 			        </li>
 			        <li class="dropdown">
@@ -68,13 +71,14 @@
 			        <li class="dropdown">
 			          <a href="portfolio.html">PORTFOLIO </a>
 			        </li>
-			        <li class="dropdown">
+			        <li class="dropdown active">
 			          <a href="about.html">ABOUT US</a>
 			        </li>
 			        <li class="dropdown">
 			          <a href="contact.html">CONTACT US</a>
 			        </li>
 				</ul>
+			</div>
 			</div>
 			<nav class="navbar navbar-inverse">
 			    <div class="navbar-header">
@@ -87,9 +91,9 @@
 			    </div>
 			    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
-				        <li><a href="../index.html">HOME <span class="sr-only">(current)</span></a></li>
-				        <li class="active">
-				        	<a href="blog.html" class="dropdown-toggle" data-hover="dropdown">BLOG</a>
+				        <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+				        <li>
+				        	<a href="#" class="dropdown-toggle" data-hover="dropdown">BLOG</a>
 				        	<ul class="dropdown-menu">
 					            <li><a href="#">Action1</a></li>
 					            <li><a href="#">Another action1</a></li>
@@ -101,7 +105,7 @@
 					          </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="shop.html" class="dropdown-toggle" data-hover="dropdown" >SHOP </a>
+				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >SHOP </a>
 				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
@@ -137,7 +141,7 @@
 				          </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="about.html" class="dropdown-toggle" data-hover="dropdown" >ABOUT US</a>
+				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >ABOUT US</a>
 				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
@@ -160,105 +164,25 @@
 				            <li><a href="#">One more separated link</a></li>
 				          </ul>
 				        </li>
-				    </ul>
-				</div> -->
+				      </ul>
+				  </div> -->
 			</nav>
 			<script type="text/javascript">
 				$('.dropdown-toggle').dropdownHover();
 			</script>
 		</header>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-9 col-sm-9">
-					<h3 class="text-uppercase textColor-606060 clearMarginT">
-						<img src="../img/title-fr/fr3.png" style="margin-bottom: 5px;">
-						&nbsp;Follow
-					</h3>
-					<div class="row fr3">
-						<div class="col-md-12">
-							<div class="thumbnail">
-								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
-								<div class="caption pull-left col-md-9">
-									<h5 ><dl class="dl-horizontal"><dt>EasyUI简介</dt></dl>  </h5>
-									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
-									<button class="btn btn-style">更多</button>
-			  					</div>
-			  					
-							</div>
-	  						<p class="border"></p>
-						</div>
-						<div class="col-md-12">
-							<div class="thumbnail">
-								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
-								<div class="caption pull-left col-md-9">
-									<h5 ><dl class="dl-horizontal"><dt>EasyUI简介</dt></dl>  </h5>
-									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
-									<button class="btn btn-style">更多</button>
-			  					</div>
-			  					
-							</div>
-							<p class="border"></p>
-						</div>
-						<div class="col-md-12">
-							<div class="thumbnail">
-								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
-								<div class="caption pull-left col-md-9">
-									<h5 ><dl class="dl-horizontal"><dt>EasyUI简介</dt></dl>  </h5>
-									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
-									<button class="btn btn-style">更多</button>
-			  					</div>
-			  					
-							</div>
-							<p class="border"></p>
-						</div>
-						<div class="col-md-12">
-							<div class="thumbnail">
-								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
-								<div class="caption pull-left col-md-9">
-									<h5 ><dl class="dl-horizontal"><dt>EasyUI简介</dt></dl>  </h5>
-									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
-									<button class="btn btn-style">更多</button>
-			  					</div>
-			  					
-							</div>
-							<p class="border"></p>
-						</div>
-						<div class="col-md-12">
-							<div class="thumbnail">
-								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
-								<div class="caption pull-left col-md-9">
-									<h5 ><dl class="dl-horizontal"><dt>EasyUI简介</dt></dl>  </h5>
-									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
-									<button class="btn btn-style">更多</button>
-			  					</div>
-			  					
-							</div>
-							<p class="border"></p>
-						</div>
-						<div class="col-md-12">
-							<div class="thumbnail">
-								<img class="col-md-3 clearPaddingTBL" src="../img/1000_1000.jpg" alt="1000*1000">
-								<div class="caption pull-left col-md-9">
-									<h5 ><dl class="dl-horizontal"><dt>EasyUI简介</dt></dl>  </h5>
-									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-									<p>jQuery EasyUI是一组基于jQuery的UI插件集合体，而jQuery EasyUI的目标就是帮助web开发者更轻松的打造出功能丰富并且美观的UI界面。开发者不需要编写复杂的javascript，也不需要对css样式有深入的了解，。</p>
-									<button class="btn btn-style">更多</button>
-			  					</div>
-			  					
-							</div>
-							<p class="border"></p>
-						</div>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="col-md-9 fr5">
+					<h3 class="clearMarginT"><dl class="dl-horizontal"><dt>Node.js可以做些什么？</dt></dl>  </h3>
+					<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+					<div class="thumbnail">
+						<img src="../img/banner1.png"/>
 					</div>
-					
+					<p class="define-lineHeight">Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。[1]  它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目，包括NASA的MSNBC（微软全国广播公司）的Breaking News都使用了该项目。[2]  国内一些移动开发者较为熟悉的框架，如WeX5前端开源框架等，也是基于Bootstrap源码进行性能优化而来。</h5></p>
 				</div>
-				<!--<div class="col-md-3 col-sm-3">-->
-				<div class="col-md-3 col-sm-3 col-xs-12 pull-right fr3">
-       				<h3 class="text-uppercase textColor-606060  clearMarginT">
+				<div class="col-md-3 fr6 pull-right">
+					<h3 class="text-uppercase textColor-606060  clearMarginT">
 						<img src="../img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
 						&nbsp;Follow Us
 					</h3>
@@ -627,51 +551,36 @@
 					    </div>
  					</div>
 				</div>
-				<div class="">
-					<div class="">
-						<div class="col-md-9 col-sm-9 fr4" >
-							<div class="callbacks_container">
-							    <ul class="rslides" id="slider1">
-							        <li>
-							          	<div class="">
-											<div class="thumbnail">
-												<img src="../img/banner2.png" alt="...">
-												<div class="">
-													<h5><dl class="dl-horizontal"><dt>第一</dt></dl> </h5>
-													<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-							  					</div>
-											</div>
-										</div>
-							        </li>
-							         <li>
-										<div class="">
-											<div class="thumbnail">
-												<img src="../img/banner2.png" alt="...">
-												<div class="">
-													<h5><dl class="dl-horizontal"><dt>第六</dt></dl></h5>
-													<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-							  					</div>
-											</div>
-										</div>
-							        </li>
-							         <li>
-										<div class="">
-											<div class="thumbnail">
-												<img src="../img/banner2.png" alt="...">
-												<div class="">
-													<h5><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-													<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-							  					</div>
-											</div>
-										</div>
-							        </li>
-							    </ul>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-9 pull-left">
+					<form class="form-horizontal" role="form">
+	                    <fieldset>
+	                        <legend class="paddingTB">SendComment</legend>
+	                       <div class="form-group">
+	                          <label class="col-md-2 col-sm-2 control-label" for="ds_host">Your Name：</label>
+	                          <div class="col-md-4 col-sm-4">
+	                             <input class="form-control" id="ds_host" type="text" placeholder="Your Name"/>
+	                          </div>
+	                          <label class="col-md-2 col-sm-2 control-label" for="ds_name">Your Email：</label>
+	                          <div class="col-md-4 col-sm-4">
+	                             <input class="form-control" id="ds_name" type="email" placeholder="Your Email"/>
+	                          </div>
+	                       </div>
+	                       <div class="form-group">
+	                          <label class="col-md-2 col-sm-2 control-label" for="ds_username">Your Comment</label>
+	                       </div>
+	                       <div class="form-group">
+	                       		<div class="col-md-11 col-sm-11 clear" style="margin:0 auto;float:none;">
+	                            	<textarea class="form-control" id="textarea" name="" rows="10" cols="" placeholder="YourComment">YourComment
+									</textarea>
+	                          	</div>
+	                       </div>
+	                    </fieldset> 
+	                    <button type="text" class="btn btn-style" value="SendComment">SendComment</button>
+                	</form>
 				</div>
 			</div>
-			<!--底部部分-->
+		</div>
+		<!-- 底部部分 -->
 		<div class="container-fluid">
 			<div class="row bg-footer">
 				<div class="">
@@ -761,8 +670,6 @@
 				</div>
 			</div>
 		</div>
-		</div>
-		
 	<script type="text/javascript">
 		$(function () {
 			$("#tabs1 a").mousemove(function (e) {
@@ -777,20 +684,7 @@
 	        $("#tabs4 a").mousemove(function (e) {
 	            $(this).fadeIn(15000).tab('show');
 	        });
-	        /*轮播图*/
-	        $("#slider1").responsiveSlides({
-				auto: true,             // 
-				speed: 500,            // 
-				timeout: 4000,          // 
-				pager: false,           // 
-				nav: true,             // 
-				pause: true,           // 
-				namespace: "callbacks",   // 
-				before: function(){},   // 
-				after: function(){}     // 
-			});
-			/*鼠标悬停切换背景*/
-			$(".twitter>.media").hover(
+	        $(".twitter>.media").hover(
 		      	function (e) {
 		      		$(this).find("img").attr("src","../img/twitter-over.png")
 		      	},
@@ -798,7 +692,6 @@
 		      		$(this).find("img").attr("src","../img/twitter-start.png")
 		      	}
 		    )
-			
 		})
 	</script>
 	</body>

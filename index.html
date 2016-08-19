@@ -14,15 +14,15 @@
 				user-scalable=yes：表示用户是否可以调整缩放比例
 			-->
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"  />
-		<link href="css/video-js.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		<link rel="stylesheet" type="text/css" href="css/responsive/responsiveslides.css"/>
-		<link rel="stylesheet" type="text/css" href="css/responsive/demo.css"/>
-		<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/responsive/responsiveslides.min.js" type="text/javascript" charset="utf-8"></script>
+		<link href="/files/BootStrap/css/video-js.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="/libs/bootstrap/dist/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="/libs/bootstrap/dist/css/bootstrap-theme.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/files/BootStrap/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/files/BootStrap/css/responsive/responsiveslides.css"/>
+		<link rel="stylesheet" type="text/css" href="/files/BootStrap/css/responsive/demo.css"/>
+		<script src="/files/BootStrap/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/files/BootStrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/files/BootStrap/js/responsive/responsiveslides.min.js" type="text/javascript" charset="utf-8"></script>
 	    <!--[if lt IE 9]>
 	    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -32,16 +32,19 @@
 		<header class="">
 			<div class="container-fluid">
 				<ul class="list-unstyled">
-					<li class="col-md-2 " >
-						<h3 ><abbr class="text-uppercase textColor-ff8376">composure</abbr><span style="float: right;color: darkgray;">|</span></h3>
+					<li class="col-md-2 clearPaddingL bdR" >
+						<h3 >
+							<abbr class="text-uppercase textColor-ff8376">composure</abbr>
+							<!-- <span style="float: right;color: darkgray;">|</span> -->
+						</h3>
 					</li>
 					<li class="col-md-4">
-						<h4 class="right">
+						<h4 class="clearMarginT clearMarginB">
 							<p><small >Creative Html template</small></p>
 							<p><small>Call us toll free: +2 000 123 45 67</small></p>
 						</h4>
 					</li>
-					<li class="col-md-6 fmt">
+					<li class="fmt">
 						<form class="navbar-form navbar-right" role="search">
 					        <div class="form-group">
 					          <input type="text" class="form-control" placeholder="Search">
@@ -53,29 +56,29 @@
 				</ul>
 			</div>
 			<!--导航条-->
-			<!--<div class="container-fluid">
+			<div class="container-fluid">
 				<ul class="list-inline first-navbar">
-					<li class="active"><a href="#">HOME</a></li>
+					<li class="dropdown active"><a href="javascript:void(0)">HOME</a></li>
 			        <li>
-			        	<a href="#">BLOG</a>
+			        	<a href="/files/BootStrap/html/blog.html">BLOG</a>
 			        </li>
 			        <li class="dropdown">
-			          <a href="#">SHOP </a>
+			          <a href="/files/BootStrap/html/shop.html">SHOP </a>
 			        </li>
 			        <li class="dropdown">
-			          <a href="#" >SERVICE </a>
+			          <a href="/files/BootStrap/html/service.html" >SERVICE </a>
 			        </li>
 			        <li class="dropdown">
-			          <a href="#">PORTFOLIO </a>
+			          <a href="/files/BootStrap/html/portfolio.html">PORTFOLIO </a>
 			        </li>
 			        <li class="dropdown">
-			          <a href="#">ABOUT US</a>
+			          <a href="/files/BootStrap/html/about.html">ABOUT US</a>
 			        </li>
 			        <li class="dropdown">
-			          <a href="#">CONTACT US</a>
+			          <a href="/files/BootStrap/html/contact.html">CONTACT US</a>
 			        </li>
 				</ul>
-			</div>-->
+			</div>
 			<nav class="navbar navbar-inverse">
 			    <div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -87,10 +90,10 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
-				        <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+				        <li class="active"><a href="javascript:void(0)">Technology <span class="sr-only">(current)</span></a></li>
 				        <li>
-				        	<a href="html/blog.html" class="dropdown-toggle" data-hover="dropdown">BLOG</a>
-				        	<!--<ul class="dropdown-menu">
+				        	<a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown">Education</a>
+				        	<ul class="dropdown-menu">
 					            <li><a href="#">Action1</a></li>
 					            <li><a href="#">Another action1</a></li>
 					            <li><a href="#">Something else here1</a></li>
@@ -98,11 +101,11 @@
 					            <li><a href="#">Separated link1</a></li>
 					            <li role="separator" class="divider"></li>
 					            <li><a href="#">One more separated link1</a></li>
-						    </ul>-->
+						    </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="html/shop.html" class="dropdown-toggle" data-hover="dropdown" >SHOP </a>
-				          <!--<ul class="dropdown-menu">
+				          <a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown" >Business </a>
+				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
 				            <li><a href="#">Something else here</a></li>
@@ -110,11 +113,11 @@
 				            <li><a href="#">Separated link</a></li>
 				            <li role="separator" class="divider"></li>
 				            <li><a href="#">One more separated link</a></li>
-				          </ul>-->
+				          </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >SERVICE </a>
-				          <!--<ul class="dropdown-menu">
+				          <a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown" >Entertainment </a>
+				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
 				            <li><a href="#">Something else here</a></li>
@@ -122,11 +125,11 @@
 				            <li><a href="#">Separated link</a></li>
 				            <li role="separator" class="divider"></li>
 				            <li><a href="#">One more separated link</a></li>
-				          </ul>-->
+				          </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >PORTFOLIO </a>
-				          <!--<ul class="dropdown-menu">
+				          <a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown" >Middle East </a>
+				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
 				            <li><a href="#">Something else here</a></li>
@@ -134,11 +137,11 @@
 				            <li><a href="#">Separated link</a></li>
 				            <li role="separator" class="divider"></li>
 				            <li><a href="#">One more separated link</a></li>
-				          </ul>-->
+				          </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >ABOUT US</a>
-				          <!--<ul class="dropdown-menu">
+				          <a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown" >World Sport</a>
+				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
 				            <li><a href="#">Something else here</a></li>
@@ -146,11 +149,11 @@
 				            <li><a href="#">Separated link</a></li>
 				            <li role="separator" class="divider"></li>
 				            <li><a href="#">One more separated link</a></li>
-				          </ul>-->
+				          </ul>
 				        </li>
 				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-hover="dropdown" >CONTACT US</a>
-				          <!--<ul class="dropdown-menu">
+				          <a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown" >Enviroment</a>
+				          <ul class="dropdown-menu">
 				            <li><a href="#">Action</a></li>
 				            <li><a href="#">Another action</a></li>
 				            <li><a href="#">Something else here</a></li>
@@ -158,7 +161,7 @@
 				            <li><a href="#">Separated link</a></li>
 				            <li role="separator" class="divider"></li>
 				            <li><a href="#">One more separated link</a></li>
-				          </ul>-->
+				          </ul>
 				        </li>
 				      </ul>
 				  </div>
@@ -174,7 +177,7 @@
 				<div class="row">
 					<div class="col-md-12 col-sm-12">
 						<h3 class="text-uppercase textColor-606060">
-							<img src="img/title-fr/fr1.png" style="margin-bottom: 5px;"/>
+							<img src="/files/BootStrap/img/title-fr/fr1.png" style="margin-bottom: 5px;"/>
 							&nbsp;快乐大本营
 						</h3>
 					</div>
@@ -185,7 +188,7 @@
 					        <li>
 					          	<div class="col-sm-4 col-md-4 col-xs-12">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第一</dt></dl> </h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -194,7 +197,7 @@
 								</div>
 								<div class="col-sm-4 col-md-4 col-xs-12">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5 ><dl class="dl-horizontal"><dt>第二第二第二第二第二第二第二</dt></dl>  </h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -203,7 +206,7 @@
 								</div>
 								<div class="col-sm-4 col-md-4 col-xs-12">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第三</dt></dl>  </h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -214,7 +217,7 @@
 					         <li>
 					          	<div class="col-sm-4 col-md-4">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第四</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -223,7 +226,7 @@
 								</div>
 								<div class="col-sm-4 col-md-4">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第五</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -232,7 +235,7 @@
 								</div>
 								<div class="col-sm-4 col-md-4">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第六</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -243,7 +246,7 @@
 					         <li>
 					          	<div class="col-sm-4 col-md-4">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第七</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -252,7 +255,7 @@
 								</div>
 								<div class="col-sm-4 col-md-4">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第八</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -261,7 +264,7 @@
 								</div>
 								<div class="col-sm-4 col-md-4">
 									<div class="thumbnail">
-										<img src="img/banner2.png" alt="...">
+										<img src="/files/BootStrap/img/banner2.png" alt="...">
 										<div class="">
 											<h5><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -278,7 +281,7 @@
 				<div class="col-md-9 col-sm-9 col-xs-12">
 			<!--Hot Topics-->
     				<h3 class="text-uppercase textColor-606060">
-						<img src="img/title-fr/fr2.png" style="margin-bottom: 5px;"/>
+						<img src="/files/BootStrap/img/title-fr/fr2.png" style="margin-bottom: 5px;"/>
 						&nbsp;Hot Topcis
 					</h3>
 					<div class="row">
@@ -287,10 +290,10 @@
 						        <li>
 						          	<div class="col-sm-12 col-md-12">
 										<div class="thumbnail">
-											<img src="img/banner2.png" alt="...">
+											<img src="/files/BootStrap/img/banner2.png" alt="...">
 											<div class="caption">
-												<h6>字符串过长CSS截取多 </h6>
-												<p><small>当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于元素，是通过:active实现的。当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于B元素，是通过:active实现的。</small></p>
+												<h4>字符串过长CSS截取多 </h4>
+												<p>当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于元素，是通过:active实现的。当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于B元素，是通过:active实现的。</p>
 						  					</div>
 										</div>
 									</div>
@@ -298,10 +301,10 @@
 						         <li>
 						          	<div class="col-sm-12 col-md-12">
 										<div class="thumbnail">
-											<img src="img/banner2.png" alt="...">
+											<img src="/files/BootStrap/img/banner2.png" alt="...">
 											<div class="caption">
-												<h6>字符串过长CSS截取多 </h6>
-												<p><small>当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于元素，是通过:active实现的。当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于B元素，是通过:active实现的。</small></p>
+												<h4>字符串过长CSS截取多 </h4>
+												<p>当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于元素，是通过:active实现的。当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于B元素，是通过:active实现的。</p>
 						  					</div>
 										</div>
 									</div>
@@ -309,10 +312,10 @@
 						        <li>
 						          	<div class="col-sm-12 col-md-12">
 										<div class="thumbnail">
-											<img src="img/banner2.png" alt="...">
+											<img src="/files/BootStrap/img/banner2.png" alt="...">
 											<div class="caption">
-												<h6>字符串过长CSS截取多 </h6>
-												<p><small>当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于元素，是通过:active实现的。当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于B元素，是通过:active实现的。</small></p>
+												<h4>字符串过长CSS截取多 </h4>
+												<p>当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于元素，是通过:active实现的。当按钮处于活动状态时，其表现为被按压下（底色更深，边框夜色更深，内置阴影）。对于B元素，是通过:active实现的。</p>
 						  					</div>
 										</div>
 									</div>
@@ -321,70 +324,70 @@
 						</div>
 					</div>
        			</div>
-       			<div class="col-md-3 col-sm-3 col-xs-12 pull-right">
+       			<div class="col-md-3 col-sm-3 col-xs-12 pull-right followus">
        				<h3 class="text-uppercase textColor-606060">
-						<img src="img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
-						&nbsp;Follow
+						<img src="/files/BootStrap/img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
+						&nbsp;Follow Us
 					</h3>
 					<ul class="list-inline">
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite1.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite1.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite2.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite2.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite3.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite3.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite4.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite4.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite5.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite5.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite6.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite6.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite7.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite7.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite8.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite8.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite9.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite9.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite10.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite10.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite11.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite11.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite12.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite12.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite13.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite13.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite14.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite14.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite15.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite15.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite16.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite16.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite17.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite17.png"/></span></a>
 						</li>
 						<li class="col-md-2 col-sm-3 col-xs-2 ">
-							<a href=""><span class="thumbnail"><img src="img/sprite/sprite18.png"/></span></a>
+							<a href=""><span class="thumbnail"><img src="/files/BootStrap/img/sprite/sprite18.png"/></span></a>
 						</li>
 					</ul>
 					<div class="list">
 						<h3 class="text-uppercase textColor-606060 clear" style="margin-top: 10px;">
-							<img src="img/title-fr/fr4.png" style="margin-bottom: 5px;"/>
+							<img src="/files/BootStrap/img/title-fr/fr4.png" style="margin-bottom: 5px;"/>
 							&nbsp;List
 						</h3>
 						<ul class="list-inline">
@@ -415,26 +418,26 @@
 						</ul>
 					</div>
        				<div class="">
-       					<h3 class="text-uppercase textColor-606060 clear" style="margin-top: 10px; display: inline-block;">
-							<img src="img/title-fr/fr5.png" style="margin-bottom: 5px;"/>
+       					<h3 class="text-uppercase textColor-606060 clear" style="margin-top: 20px; display: inline-block;">
+							<img src="/files/BootStrap/img/title-fr/fr5.png" style="margin-bottom: 5px;"/>
 							&nbsp;Advertising
 						</h3>
        				</div>
 					<div class="thumbnail">
 						<a href="">
-							<img src="img/banner3.jpg"/>
+							<img src="/files/BootStrap/img/banner3.jpg"/>
 						</a>
 					</div>
        			</div>
 				<div class="col-md-9 col-sm-9">
 					<h3 class="text-uppercase textColor-606060">
-						<img src="img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
+						<img src="/files/BootStrap/img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
 						&nbsp;Entertainment
 					</h3>
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
 							<div class="thumbnail clearPadding">
-								<img src="img/banner3.jpg"/>
+								<img src="/files/BootStrap/img/banner3.jpg"/>
 								<div class="caption">
 									<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -446,12 +449,8 @@
 										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 									</ul>
 									<p>
-										<small >本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：
-											<button type="button" class="btn btn-info pull-right ">
-												<b>更&nbsp;多</b>
-											</button>
-										</small>
-										
+										本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：...
+										<a href="" class="textColor-ff8376"><em>More</em></a>
 									</p>
 								</div>
 							</div>
@@ -460,7 +459,7 @@
 							<ul class="list-inline">
 								<li class="col-md-6 col-sm-6 padding0">
 									<div class="thumbnail clearPadding">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 										<div class="caption">
 											<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -476,7 +475,7 @@
 								</li>
 								<li class="col-md-6 col-sm-6 padding0">
 									<div class="thumbnail clearPadding">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 										<div class="caption">
 											<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -492,7 +491,7 @@
 								</li>
 								<li class="col-md-6 col-sm-6 padding0">
 									<div class="thumbnail clearPadding">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 										<div class="caption">
 											<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -508,7 +507,7 @@
 								</li>
 								<li class="col-md-6 col-sm-6 padding0">
 									<div class="thumbnail clearPadding">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 										<div class="caption">
 											<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 											<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -539,7 +538,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL">
 									<div class="thumbnail img-box">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -552,7 +551,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -565,7 +564,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -578,7 +577,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -593,7 +592,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -606,7 +605,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -619,7 +618,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -632,7 +631,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -647,7 +646,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -660,7 +659,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -673,7 +672,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -686,7 +685,7 @@
 							<ul class="list-unstyled pull-left">
 								<li class="col-md-6 col-sm-12 clearPaddingL ">
 									<div class="thumbnail">
-										<img src="img/banner1.png"/>
+										<img src="/files/BootStrap/img/banner1.png"/>
 									</div>
 								</li>
 								<li class="col-md-6 col-sm-12 clearPaddingL clearPaddingR">
@@ -701,117 +700,107 @@
 				</div>
 				<div class="col-md-9 col-sm-9">
 					<h3 class="text-uppercase textColor-606060">
-						<img src="img/title-fr/fr3.png" style="margin-bottom: 5px;"/>
-						&nbsp;Entertainment
+						<img src="/files/BootStrap/img/title-fr/fr6.png" style="margin-bottom: 5px;"/>
+						&nbsp;Technology
 					</h3>
-					<div class="col-md-6 col-sm-6">
-						<div class="thumbnail ">
-							<img src="img/banner3.jpg"/>
-							<div class="caption">
-								<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-								<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-								<ul class="list-inline unstyle">
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-								</ul>
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="thumbnail ">
+								<img src="/files/BootStrap/img/banner3.jpg"/>
+								<div class="caption">
+									<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<ul class="list-inline unstyle">
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="thumbnail ">
-							<img src="img/banner3.jpg"/>
-							<div class="caption">
-								<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-								<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-								<ul class="list-inline unstyle">
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-								</ul>
+						<div class="col-md-6 col-sm-6">
+							<div class="thumbnail ">
+								<img src="/files/BootStrap/img/banner3.jpg"/>
+								<div class="caption">
+									<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<ul class="list-inline unstyle">
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="thumbnail ">
-							<img src="img/banner3.jpg"/>
-							<div class="caption">
-								<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-								<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-								<ul class="list-inline unstyle">
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-								</ul>
-								<p>
-									<small class="btn-inlineBlock">本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将
-										<button type="button" class="btn btn-info pull-right ">
-											<b>更&nbsp;多</b>
-										</button>
-									</small>
-									
-								</p>
+						<div class="col-md-4 col-sm-4">
+							<div class="thumbnail ">
+								<img src="/files/BootStrap/img/banner3.jpg"/>
+								<div class="caption">
+									<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<ul class="list-inline unstyle">
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+									</ul>
+									<p>
+										本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：...
+										<a href="" class="textColor-ff8376"><em>More</em></a>
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="thumbnail">
-							<img src="img/banner3.jpg"/>
-							<div class="caption">
-								<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-								<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-								<ul class="list-inline unstyle">
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-								</ul>
-								<p>
-									<small class="btn-inlineBlock">本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将
-										<button type="button" class="btn btn-info pull-right ">
-											<b>更&nbsp;多</b>
-										</button>
-									</small>
-									
-								</p>
+						<div class="col-md-4 col-sm-4">
+							<div class="thumbnail">
+								<img src="/files/BootStrap/img/banner3.jpg"/>
+								<div class="caption">
+									<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<ul class="list-inline unstyle">
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+									</ul>
+									<p>
+										本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：...
+										<a href="" class="textColor-ff8376"><em>More</em></a>
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="thumbnail ">
-							<img src="img/banner3.jpg"/>
-							<div class="caption">
-								<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-								<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-								<ul class="list-inline unstyle">
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-									<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
-								</ul>
-								<p>
-									<small class="btn-inlineBlock">本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将
-										<button type="button" class="btn btn-info pull-right ">
-											<b>更&nbsp;多</b>
-										</button>
-									</small>
-									
-								</p>
+						<div class="col-md-4 col-sm-4">
+							<div class="thumbnail ">
+								<img src="/files/BootStrap/img/banner3.jpg"/>
+								<div class="caption">
+									<h5 style="display: inline-block;width: 100%;margin:0 auto;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+									<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+									<ul class="list-inline unstyle">
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-gold"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+										<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
+									</ul>
+									<p>
+										本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：...
+										<a href="" class="textColor-ff8376"><em>More</em></a>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-3 pull-right">
-					<h3 class="text-uppercase textColor-606060">
-						<img src="img/title-fr/fr8.png" style="margin-bottom: 5px;"/>
+					<h3 class="text-uppercase textColor-606060" style="margin-top:10px;">
+						<img src="/files/BootStrap/img/title-fr/fr8.png" style="margin-bottom: 5px;"/>
 						&nbsp;Tags
 					</h3>
 					<ul class="list-inline paddingALL clearMarginB">
@@ -829,18 +818,18 @@
 						<li class="bg-f6f6f6"><a href="">Enviroment</a></li>
 						<li class="bg-f6f6f6"><a href="">War</a></li>
 					</ul>
-					<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;">
-						<img src="img/title-fr/fr9.png" style="margin-bottom: 5px;"/>
+					<h3 class="text-uppercase textColor-606060">
+						<img src="/files/BootStrap/img/title-fr/fr9.png" style="margin-bottom: 5px;"/>
 						&nbsp;Featured Vedio
 					</h3>
-					<link href="css/video-default.css" rel="stylesheet">
-					<script type="text/javascript" src="js/jquery.video-ui.js"></script>
+					<link href="/files/BootStrap/css/video-default.css" rel="stylesheet">
+					<script type="text/javascript" src="/files/BootStrap/js/jquery.video-ui.js"></script>
 					
 					<div class="col-md-12 col-sm-12 clearPadding ">
 						 <div class="videoUiWrapper thumbnail">
-	                        <video   id="demo1" class="col-md-12 col-sm-12 col-xs-12 " poster="img/video.png" preload="none">
+	                        <video   id="demo1" class="col-md-12 col-sm-12 col-xs-12 clearPadding" poster="/files/BootStrap/img/video.png" preload="none">
 	                            <!-- <source src="oceans.ogv" type="video/ogg">  -->
-	                            <source src="files/oceans.mp4" type="video/mp4">
+	                            <source src="/files/BootStrap/files/oceans.mp4" type="video/mp4">
 	                            Your browser does not support the video tag.
 	                        </video>
 	                    </div>
@@ -851,14 +840,14 @@
 							'autoPlay':false
 						});
 					</script>
-					<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;display: inline-block;">
-						<img src="img/title-fr/fr11.png" style="margin-bottom: 5px;"/>
+					<h3 class="text-uppercase textColor-606060" style="margin-top: 20px;display: inline-block;">
+						<img src="/files/BootStrap/img/title-fr/fr11.png" style="margin-bottom: 10px;"/>
 						&nbsp;Twitter
 					</h3>
 					<div class="twitter">
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -866,7 +855,7 @@
 						</div>
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -874,7 +863,7 @@
 						</div>
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -882,30 +871,28 @@
 						</div>
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
 						   </div>
 						</div>
 					</div>	
-					<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;">
-						<img src="img/title-fr/fr12.png" style="margin-bottom: 5px;"/>
+					<h3 class="text-uppercase textColor-606060">
+						<img src="/files/BootStrap/img/title-fr/fr12.png" style="margin-bottom: 5px;"/>
 						&nbsp;NewsLetter
 					</h3>
-					<div class="col-md-12 col-sm-12">
-					  	<h4>Subscribe to out NewsLetter</h5>
-					    <div class="input-group">
-					      	<input type="text" class="form-control" placeholder="Enter your Email...">
-					      		<span class="input-group-btn">
-					        		<button class="btn bg-ff5842" type="button">Subscribe!</button>
-					      		</span>
-					    </div>
-					</div><!-- /.col-lg-6 -->
+				  	<h4>Subscribe to out NewsLetter</h5>
+				    <div class="input-group">
+				      	<input type="text" class="form-control" placeholder="Enter your Email...">
+				      		<span class="input-group-btn">
+				        		<button class="btn bg-ff5842" type="button">Subscribe!</button>
+				      		</span>
+				    </div>
 				</div>
 				<!--<div class="col-md-3 col-sm-3">
 					<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;">
-						<img src="img/title-fr/fr9.png" style="margin-bottom: 5px;"/>
+						<img src="/files/BootStrap/img/title-fr/fr9.png" style="margin-bottom: 5px;"/>
 						&nbsp;Featured Vedio
 					</h3>
 					<link href="css/video-default.css" rel="stylesheet">
@@ -913,7 +900,7 @@
 					
 					<div class="col-md-12 col-sm-12 clearPadding ">
 						 <div class="videoUiWrapper thumbnail">
-	                        <video   id="demo1" class="col-md-12 col-sm-12 col-xs-12 " poster="img/video.png" preload="none">
+	                        <video   id="demo1" class="col-md-12 col-sm-12 col-xs-12 " poster="/files/BootStrap/img/video.png" preload="none">
 	                            <source src="files/oceans.mp4" type="video/mp4">
 	                            Your browser does not support the video tag.
 	                        </video>
@@ -928,13 +915,13 @@
 				</div>-->
 				<!--<div class="col-md-3 col-sm-3">
 					<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;">
-						<img src="img/title-fr/fr11.png" style="margin-bottom: 5px;"/>
+						<img src="/files/BootStrap/img/title-fr/fr11.png" style="margin-bottom: 5px;"/>
 						&nbsp;Twitter
 					</h3>
 					<div class="twitter">
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -942,7 +929,7 @@
 						</div>
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -950,7 +937,7 @@
 						</div>
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -958,7 +945,7 @@
 						</div>
 						<div class="media">
 						   	<a class="pull-left" href="#">
-						      	<img class="media-object" src="img/twitter-start.png" alt="Media Object">
+						      	<img class="media-object" src="/files/BootStrap/img/twitter-start.png" alt="Media Object">
 						   	</a>
 						   	<div class="media-body">
 						      <a href=""><h6>This is some sample text. This is some sample text.</h6></a> 
@@ -968,7 +955,7 @@
 				</div>-->
 				<!--<div class="col-md-3 col-sm-3 pull-right">
 					<h3 class="text-uppercase textColor-606060" style="margin-top: 10px;">
-						<img src="img/title-fr/fr12.png" style="margin-bottom: 5px;"/>
+						<img src="/files/BootStrap/img/title-fr/fr12.png" style="margin-bottom: 5px;"/>
 						&nbsp;NewsLetter
 					</h3>
 					<div class="col-md-12 col-sm-12">
@@ -983,7 +970,7 @@
 				</div>-->
 				<div class="col-md-9 col-sm-9 pull-left">
 					<h3 class="text-uppercase textColor-606060">
-						<img src="img/title-fr/fr1.png" style="margin-bottom: 5px;"/>
+						<img src="/files/BootStrap/img/title-fr/fr1.png" style="margin-bottom: 5px;"/>
 						&nbsp;Enviroment
 					</h3>
 					<div class="row">
@@ -992,7 +979,7 @@
 						        <li>
 						          	<div class="col-sm-12 col-md-12 col-xs-12">
 										<div class="thumbnail">
-											<img src="img/banner2.png" alt="...">
+											<img src="/files/BootStrap/img/banner2.png" alt="...">
 											<div class="paddingLR">
 												<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -1003,14 +990,9 @@
 													<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 													<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 												</ul>
-												<p class="borderTB">
-													<small class="btn-inlineBlock ">
-														本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：
-														<button type="button" class="btn btn-info pull-right ">
-															<b>更&nbsp;多</b>
-														</button>
-													</small>
-													
+												<p class="borderT paddingTB" >
+													本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。...
+													<a href="" class="textColor-ff8376"><em>More</em></a>
 												</p>
 											</div>
 										</div>
@@ -1019,7 +1001,7 @@
 						         <li>
 						          	<div class="col-sm-12 col-md-12">
 										<div class="thumbnail">
-											<img src="img/banner2.png" alt="...">
+											<img src="/files/BootStrap/img/banner2.png" alt="...">
 											<div class="paddingLR">
 												<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -1030,7 +1012,7 @@
 													<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 													<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 												</ul>
-												<p class="borderTB">
+												<p class="borderT paddingTB">
 													<small class="btn-inlineBlock">本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：
 														<button type="button" class="btn btn-info pull-right ">
 															<b>更&nbsp;多</b>
@@ -1045,7 +1027,7 @@
 						         <li>
 						          	<div class="col-sm-12 col-md-12">
 										<div class="thumbnail">
-											<img src="img/banner2.png" alt="...">
+											<img src="/files/BootStrap/img/banner2.png" alt="...">
 											<div class="paddingLR">
 												<h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
 												<p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
@@ -1056,12 +1038,9 @@
 													<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 													<li class=""><span class="glyphicon glyphicon-star text-dfdfdf"></span></li>
 												</ul>
-												<p class="borderTB">
-													<small class="btn-inlineBlock">本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：
-														<button type="button" class="btn btn-info pull-right ">
-															<b>更&nbsp;多</b>
-														</button>
-													</small>
+												<p class="borderT paddingTB">
+												本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：本章我们将讲解列表组。列表组件用于以列表形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：...	
+												<a href="" class="textColor-ff8376"><em>More</em></a>
 												</p>
 											</div>
 										</div>
@@ -1074,7 +1053,7 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="media">
 					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
 					            </a>
 					            <div class="media-body">
 					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九第八第七地理第五第四四散</dt></dl></h5>
@@ -1085,7 +1064,7 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="media">
 					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
 					            </a>
 					            <div class="media-body">
 					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
@@ -1098,7 +1077,7 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="media">
 					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
 					            </a>
 					            <div class="media-body">
 					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
@@ -1109,31 +1088,7 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="media">
 					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
-					            </a>
-					            <div class="media-body">
-					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-					                <p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-					            </div>
-					        </div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<div class="media">
-					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
-					            </a>
-					            <div class="media-body">
-					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
-					                <p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
-					            </div>
-					        </div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="media">
-					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
 					            </a>
 					            <div class="media-body">
 					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
@@ -1146,7 +1101,7 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="media">
 					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
 					            </a>
 					            <div class="media-body">
 					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
@@ -1157,7 +1112,31 @@
 						<div class="col-md-6 col-sm-6">
 							<div class="media">
 					            <a href="#" class="media-left media-middle">
-					                <img src="img/header.jpg" alt="头像" width="64"/>
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
+					            </a>
+					            <div class="media-body">
+					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+					                <p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+					            </div>
+					        </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="media">
+					            <a href="#" class="media-left media-middle">
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
+					            </a>
+					            <div class="media-body">
+					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
+					                <p><small>发布于 <abbr class="text-red">7 April,2013</abbr> By <abbr class="text-red">M-elgendy</abbr></small></p>
+					            </div>
+					        </div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="media">
+					            <a href="#" class="media-left media-middle">
+					                <img src="/files/BootStrap/img/header.jpg" alt="头像" width="64"/>
 					            </a>
 					            <div class="media-body">
 					                <h5 style="display: inline-block;width: 100%;"><dl class="dl-horizontal"><dt>第九</dt></dl></h5>
@@ -1177,7 +1156,10 @@
 			<div class="row bg-footer">
 				<div class="">
 					<div class="col-md-4 col-sm-4">
-						<h3>About Company</h3>
+						<h3>
+							<img src="img/title-fr/fr13.png" alt="" style="margin-bottom:5px;">
+							About Company
+						</h3>
 						<small>
 							我要从南走到北,我还要从白走到黑.
 							我要人们都看到我,但不知道我是谁.
@@ -1243,16 +1225,16 @@
 					<div class="col-md-2 col-sm-2">
 						<ul class="list-inline">
 						<li class="col-md-3 col-sm-2 col-xs-3 ">
-							<a href=""><img src="img/facebook-footer.png"></a>
+							<a href=""><img src="/files/BootStrap/img/facebook-footer.png"></a>
 						</li>
 						<li class="col-md-3 col-sm-2 col-xs-3 ">
-							<a href=""><img src="img/twitter-footer.png"></a>
+							<a href=""><img src="/files/BootStrap/img/twitter-footer.png"></a>
 						</li>
 						<li class="col-md-3 col-sm-2 col-xs-3 ">
-							<a href=""><img src="img/google-footer.png"></a>
+							<a href=""><img src="/files/BootStrap/img/google-footer.png"></a>
 						</li>
 						<li class="col-md-3 col-sm-2 col-xs-3 ">
-							<a href=""><img src="img/youToube-footer.png"></a>
+							<a href=""><img src="/files/BootStrap/img/youToube-footer.png"></a>
 						</li>
 					</ul>
 					</div>
@@ -1313,10 +1295,10 @@
 		       
 		      $(".twitter>.media").hover(
 		      	function (e) {
-		      		$(this).find("img").attr("src","img/twitter-over.png")
+		      		$(this).find("img").attr("src","/files/BootStrap/img/twitter-over.png")
 		      	},
 		      	function (e) {
-		      		$(this).find("img").attr("src","img/twitter-start.png")
+		      		$(this).find("img").attr("src","/files/BootStrap/img/twitter-start.png")
 		      	}
 		      )
 			})
