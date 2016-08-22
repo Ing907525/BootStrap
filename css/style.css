@@ -5,19 +5,28 @@ html,body{-webkit-text-size-adjust: none;}
 .f1 li{float: left;}
 .clear{clear: both;}
 .fmt{margin-top: 20px !important;}
-.bdR{border-right: darkgrey solid 2px;width: 13%;display: inline-block;float: left;}
+.bg-ff5842{background-color: #FF5842 !important;color: #F8F8F8;}
+.bdR{border-right: darkgrey solid 2px;display: inline-block;float: left;}
 .bdR>h3{margin-top: 10PX}
 .clearMarginT{margin-top: 0}
+.clearPaddingLR{padding-left: 0;padding-right:0;}
 .navbar-inverse{border:none !important;border-radius: 0 !important;background-color: #FF5842 !important;background-image: none !important;}
 .navbar-nav>li>a{color:#ffffff !important;font-size: 16px;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{background-color: #ff5842 !important;}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color: #f24933 !important;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{background-image: none !important;}
-.first-navbar{min-height: 50px;line-height: 50px;}
-.first-navbar li a{padding: 0 10px !important;font-size: 16px;}
-.first-navbar li:first-child a{padding-left: 0 !important}
-.first-navbar>li>a:hover{color: #F24933 !important;}
-.first-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
+.first-navbar,.second-navbar{min-height: 70px;line-height: 70px;}
+.first-navbar li a,.second-navbar li a{padding: 0 10px !important;font-size: 16px;}
+.first-navbar li:first-child a,.second-navbar li:first-child a{padding-left: 0 !important}
+.first-navbar>li>a:hover,.second-navbar>li>a:hover{color: #F24933 !important;}
+.first-navbar>.active>a,.second-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
+.second-navbar{padding-left:15px;background-color: #ffffff;display: none;border-bottom: #E4E4E4 solid 1px}
+.second-navbar li a{text-shadow: 1px 1px rgba(197, 223, 248,0.8),2px 2px rgba(197, 223, 248,0.8),3px 3px rgba(197, 223, 248,0.8),4px 4px rgba(197, 223, 248,0.8),5px 5px rgba(197, 223, 248,0.8),6px 6px rgba(197, 223, 248,0.8);}
+.form-control{width: auto;float: left;border-radius: 0}
+.btn{border-radius: 0}
+.dropdown-menu{background-color: rgba(0,0, 0, 0.5);padding: 0;color: #FFFFFE;}
+.dropdown-menu>li>a{padding: 10px 20px;color: #FFFFFE;}
+.dropdown-menu>li>a:hover{/*background-color: rgba(0,0,0.5);*/}
 /*轮播图*/
 #slider1 .thumbnail{border-bottom: #FF5842 solid 5px !important;}
 #slider2{margin-bottom: 20px;}
@@ -27,13 +36,14 @@ html,body{-webkit-text-size-adjust: none;}
 .carousel-control.left{background: url(../img/pre-next/pre-after.png) left top no-repeat !important;right: 0 !important;left: auto !important;width: 93px !important;}
 .carousel-control.right{background: url(../img/pre-next/next-after.png) top center no-repeat !important;width: 60px!important;}
 .carousel-control{width: 9% !important;}
-/*.textColor-606060{margin-top: 0;}*/
 .textColor-ff8376{color: #FF8376;}
 #slider1 h5,#slider3 h5{display: inline-block;}
 .bg-f6f6f6{background: #f6f6f6;border: white solid 1px;color: #606060;}
 .bg-f6f6f6:hover>a{color: #FFFFFF ;}
 .bg-f6f6f6:hover{background-color:#FF5842;cursor: pointer;cursor: -ms-pointer;}
-/*.bg-f6f6f6:hover>a{color: #FFFFFF !important;}*/
+/*技术*/
+.text1 + a{position: absolute;bottom: 45px;right: 35px;}
+.text1 + a:hover{color: #FF8376;}
 /*FollowUs*/
 .followus .thumbnail{border: none !important;padding: 0;box-shadow: none;}
 /*Entertainment*/
@@ -42,6 +52,8 @@ html,body{-webkit-text-size-adjust: none;}
 .paddingTB{padding-top: 15px;padding-bottom: 15px;}
 .paddingTBL0{padding-top: 0 !important;padding-bottom: 0 !important;padding-left: 0 !important;}
 .clearPadding{padding-top: 0 !important;padding-right: 0 !important;padding-bottom: 0 !important;padding-left: 0 !important;}
+.text + a{position: absolute;bottom: 45px;right: 35px;}
+.text + a:hover{color: #FF8376;}
 /*TabNav*/
 .nav-tabs>li>a{color: #FFFFFE ;border: none;}
 .active>a{background-color: #F24933 !important;border: none !important;color: #FFFFFE !important;box-shadow: inset 0 3px 9px rgba(0,0,0,.25); -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25)}

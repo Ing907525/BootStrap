@@ -6,8 +6,10 @@ a:hover{text-decoration: none;}
 html,body{-webkit-text-size-adjust: none;}
 .textColor-ff8376{color: #FF8376;}
 .fmt{margin-top: 20px !important;}
-.bdR{border-right: darkgrey solid 2px;width: 13%;display: inline-block;float: left;}
+.bg-ff5842{background-color: #FF5842 !important;color: #F8F8F8;}
+.bdR{border-right: darkgrey solid 2px;display: inline-block;float: left;}
 .bdR>h3{margin-top: 10PX}
+.navbar-form .form-control {height: auto;}
 .clearMarginT{margin-top: 0}
 .clearPaddingL{padding-left: 0}
 .first-navbar{min-height: 50px;line-height: 50px;}
@@ -17,10 +19,13 @@ html,body{-webkit-text-size-adjust: none;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{background-color: #ff5842 !important;}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color: #f24933 !important;}
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{background-image: none !important;}
-.first-navbar li a{padding: 0 10px !important;font-size: 16px;}
-.first-navbar li:first-child a{padding-left: 0 !important}
-.first-navbar>li>a:hover{color: #F24933 !important;}
-.first-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
+.first-navbar,.second-navbar{min-height: 70px;line-height: 70px;}
+.first-navbar li a,.second-navbar li a{padding: 0 10px !important;font-size: 16px;}
+.first-navbar li:first-child a,.second-navbar li:first-child a{padding-left: 0 !important}
+.first-navbar>li>a:hover,.second-navbar>li>a:hover{color: #F24933 !important;}
+.first-navbar>.active>a,.second-navbar>.active>a{color: #F24933 !important;background: none !important;box-shadow: none !important;}
+.second-navbar{padding-left:15px;background-color: #ffffff;display: none;border-bottom: #E4E4E4 solid 1px}
+.second-navbar li a{text-shadow: 1px 1px rgba(197, 223, 248,0.8),2px 2px rgba(197, 223, 248,0.8),3px 3px rgba(197, 223, 248,0.8),4px 4px rgba(197, 223, 248,0.8),5px 5px rgba(197, 223, 248,0.8),6px 6px rgba(197, 223, 248,0.8);}
 /* 主体部分 */
 /*第一部分*/
 .fr1 .thumbnail{
